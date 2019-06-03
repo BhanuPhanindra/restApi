@@ -12,6 +12,7 @@ def hello1():
 
 app.route("/test/tt")
 def hello2():
+	print("hello")
     return "Inner path test again"
 
 
